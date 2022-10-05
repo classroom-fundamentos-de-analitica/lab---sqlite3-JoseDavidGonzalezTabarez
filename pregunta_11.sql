@@ -38,4 +38,4 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 -- 
-SELECT CAST(SUBSTR(c14,1,4) as integer), COUNT(SUBSTR(c14,1,4)) FROM tbl1 WHERE SUBSTR(c14,1,4) = '2018' GROUP BY SUBSTR(c14,1,4);
+SELECT CAST(SUBSTR(c14,1,4) as integer) AS YEAR, COUNT(SUBSTR(c14,1,4)) AS CANT FROM tbl1 WHERE SUBSTR(c14,1,4) = '2018' GROUP BY SUBSTR(c14,1,4);
