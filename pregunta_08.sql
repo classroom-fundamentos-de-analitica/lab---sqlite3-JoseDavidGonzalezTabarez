@@ -41,4 +41,4 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 --
-SELECT substr(c23,1,4), avg(c21) FROM tbl2 GROUP BY SUBSTR(c23,1,4) ORDER BY SUBSTR(c23,1,4);
+SELECT substr(c23,1,4) as 'YEAR', avg(c21) FROM tbl2 GROUP BY SUBSTR(c23,1,4) ORDER BY SUBSTR(c23,1,4);

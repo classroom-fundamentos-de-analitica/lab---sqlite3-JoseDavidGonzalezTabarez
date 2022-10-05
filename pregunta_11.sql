@@ -38,4 +38,4 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 -- 
-SELECT substr(c14,1,4), count(SUBSTR(c14,1,4)) FROM tbl1 WHERE SUBSTR(c14,1,4) = '2018' GROUP BY SUBSTR(c14,1,4);
+SELECT substr(c14,1,4) as 'YEAR', count(SUBSTR(c14,1,4)) as 'CANT' FROM tbl1 WHERE SUBSTR(c14,1,4) = '2018' GROUP BY SUBSTR(c14,1,4);
