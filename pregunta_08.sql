@@ -41,3 +41,6 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 --
+SELECT EXTRACT(YEAR FROM c23) AS YEAR, AVG(c21) FROM tbl2
+	GROUP BY YEAR
+		ORDER BY YEAR
