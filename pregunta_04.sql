@@ -40,5 +40,4 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 -- 
-SELECT k0, c16 FROM tbl1 
-    WHERE LEFT(k0,1) = LEFT(c16,1)
+SELECT k0, c16 FROM tbl1 WHERE LEFT(k0,1) = LEFT(c16,1)
