@@ -14,7 +14,7 @@ CREATE TABLE tbl1 (
     c13 INT,
     c14 DATE,
     c15 FLOAT,
-    c16 CHAR(4)
+    c16 CHAR(5)
     );
 
 CREATE TABLE tbl2 (
